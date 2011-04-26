@@ -1,0 +1,3 @@
+var galleryImages = ["resources/img/gallery/image_9.jpg", "resources/img/gallery/image_10.jpg", "resources/img/gallery/image_3.jpg", "resources/img/gallery/image_4.jpg", "resources/img/gallery/image_13.jpg", "resources/img/gallery/image_6.jpg", "resources/img/gallery/image_7.jpg", "resources/img/gallery/image_8.jpg", "resources/img/gallery/image_1.jpg", "resources/img/gallery/image_2.jpg", "resources/img/gallery/image_11.jpg", "resources/img/gallery/image_12.jpg", "resources/img/gallery/image_5.jpg", "resources/img/gallery/image_14.jpg", "resources/img/gallery/image_15.jpg", "resources/img/gallery/image_16.jpg"];
+
+var twitterUsername = 'collis';
