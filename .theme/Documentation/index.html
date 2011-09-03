@@ -1,0 +1,210 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head lang="en">
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<title>Divine Documentation</title>
+		<!-- Framework CSS -->
+		<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+		<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+		<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+		<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+		<style type="text/css" media="screen">
+			p, table, hr, .box { margin-bottom:25px; }
+			.box p { margin-bottom:10px; }
+			pre {
+				background: #ececec;
+				padding: 5px;
+			}
+			#background-patterns {
+				margin-top: -20px;
+				padding-bottom: 10px;
+			}
+			#background-patterns ul {
+				list-style: none;
+				margin: 0;
+			}
+			#background-patterns ul li {
+				float: left;
+				padding-right: 10px;
+			}
+			#background-patterns ul li .pattern {
+				width: 70px;
+				height: 70px;
+			}
+			#background-patterns ul li .class-name {
+				text-align: center;
+			}
+			li.pattern-1 div.pattern { background: #e9e9e9 url(assets/background/pattern_1.png) repeat; }
+			li.pattern-2 div.pattern { background: #e9e9e9 url(assets/background/pattern_2.png) repeat; }
+			li.pattern-3 div.pattern { background: #e9e9e9 url(assets/background/pattern_3.png) repeat; }
+			li.pattern-4 div.pattern { background: #e9e9e9 url(assets/background/pattern_4.png) repeat; }
+			li.pattern-5 div.pattern { background: #e9e9e9 url(assets/background/pattern_5.png) repeat; }
+			li.pattern-6 div.pattern { background: #e9e9e9 url(assets/background/pattern_6.png) repeat; }
+			li.pattern-7 div.pattern { background: #e9e9e9 url(assets/background/pattern_7.png) repeat; }
+			li.pattern-8 div.pattern { background: #e9e9e9 url(assets/background/pattern_8.png) repeat; }
+			li.gray div { background-color: #e9e9e9; }
+			li.blue div { background-color: #c3d6e6; }
+			li.lightBlue div { background-color: #d6dee5; }
+			li.yellow div { background-color: #e8e9d4; }
+			li.purple div { background-color: #d1d5e8; }
+			li.green div { background-color: #d5e5cc; }
+			li.blueGreen div { background-color: #cbe5e3; }
+			li.brown div { background-color: #e5d9cb; }
+			li.red div { background-color: #e7d0d0; }
+			li.pink div { background-color: #e3cae1; }
+		</style>
+	</head>
+	
+	
+	<body>
+		<div class="container">
+			<h3 class="center alt"><strong>Divine</strong> Documentation by Fusion Media v1.0</h3>
+			<hr />
+			<h1 class="center"><strong>Divine</strong> - vCard</h1>
+			<div class="borderTop">
+				<div class="span-6 colborder info prepend-1">
+					<p class="prepend-top">
+						<strong>
+						Created: 04/08/2010<br>
+						By: Fusion Media<br>
+						Email: <a href="mailto:contact@fusionmedia.dk">contact@fusionmedia.dk</a>
+						</strong>
+					</p>
+				</div>
+				<div class="span-12 last">
+					<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/FusionMedia">here</a>. Thanks so much!</p>
+				</div>
+			</div>
+			<hr />
+			<h2 id="toc" class="alt">Table of Contents</h2>
+			<ol class="alpha">
+				<li><a href="#a">HTML and CSS structure</a></li>
+				<li><a href="#b">Edit background color</a></li>
+				<li><a href="#c">Edit background pattern</a></li>
+				<li><a href="#d">Change portrait</a></li>
+				<li><a href="#e">Apply your name accross the template</a></li>
+				<li><a href="#f">Add images to the gallery</a></li>
+				<li><a href="#g">Edit the recipient of the email form</a></li>
+				<li><a href="#h">Edit the user to get the latest tweet from</a></li>
+				<li><a href="#i">Edit social networks</a></li>
+				<li><a href="#j">Skill bars</a></li>
+			</ol>
+			<hr />
+			<h3 id="a"><strong>A) HTML and CSS structure</strong> - <a href="#toc">top</a></h3>
+			<p>
+				If you would like to add some space on the page you can simply add a div with a class of space<strong>[1-30]</strong>. As you may have guessed already: the number is the height of the space in pixels.<br />
+				Example:
+				<pre>&lt;div class=&quot;space10&quot;&gt;&lt;/div&gt;</pre><br />
+				
+				If you would like to add some additional content you could for example: Add a div with a class of space10 and under it you could simply add content such as text and images<br /><br />
+				
+				If you would like to edit the default font, then open <strong>main.css</strong> go to <strong>body</strong> <small>(on line 12)</small>, then in the line under you will see the following:
+				<pre>font-family: 'HelveticaNeue', 'Helvetica Neue', Arial, sans-serif;</pre>
+				Just replace <strong>'HelveticaNeue'</strong> with the font you would like to use
+			</p>
+			<hr />
+			<h3 id="b"><strong>B) Edit background color</strong> - <a href="#toc">top</a></h3>
+			<p>
+				You can choose between 10 different colors: <strong>gray</strong>, <strong>blue</strong>, <strong>lightBlue</strong>, <strong>yellow</strong>, <strong>purple</strong>, <strong>green</strong>, <strong>blueGreen</strong>, <strong>brown</strong>, <strong>red</strong> and <strong>pink</strong>.<br />
+				You can apply one of the above colors to the background.<br /><br/>
+				
+				<strong>Change the background color</strong><br />
+				On line 22 in <strong>index.html</strong> there is the body element, you can change the class of <strong>gray</strong> to any of the colors above.<br /><br />
+			</p>
+			<hr />
+			<h3 id="c"><strong>C) Edit background pattern</strong> - <a href="#toc">top</a></h3>
+			<p>
+				You can choose between 8 different patterns: 
+			</p>
+			<div id="background-patterns">
+				<ul>
+					<li class="pattern-1"><div class="pattern"></div><div class="class-name">pattern-1</div></li>
+					<li class="pattern-2"><div class="pattern"></div><div class="class-name">pattern-2</div></li>
+					<li class="pattern-3"><div class="pattern"></div><div class="class-name">pattern-3</div></li>
+					<li class="pattern-4"><div class="pattern"></div><div class="class-name">pattern-4</div></li>
+					<li class="pattern-5"><div class="pattern"></div><div class="class-name">pattern-5</div></li>
+					<li class="pattern-6"><div class="pattern"></div><div class="class-name">pattern-6</div></li>
+					<li class="pattern-7"><div class="pattern"></div><div class="class-name">pattern-7</div></li>
+					<li class="pattern-8"><div class="pattern"></div><div class="class-name">pattern-8</div></li>
+				</ul>
+				<div style="clear:both;"></div>
+			</div>
+			<p>
+				<strong>Change the background pattern</strong><br />
+				On line 22 in <strong>index.html</strong> there is the body element, you can change the class of <strong>pattern-1</strong> to any of the patterns above.
+			</p>
+			<p>
+				If you do not want a background pattern, just remove the pattern class completely
+			</p>
+			<hr />
+			<h3 id="d"><strong>D) Add images to the gallery</strong> - <a href="#toc">top</a></h3>
+			<p>
+				If you would like to add images to the gallery, then open <strong>config.js</strong> under <strong>resources -> js</strong> on line 1<br /><br />
+				
+				It's just a regular Javascript array, if you're not familiare with arrays then check out: <a href="http://www.w3schools.com/JS/js_obj_array.asp">http://www.w3schools.com/JS/js_obj_array.asp</a>
+			</p>
+			<hr />
+			<h3 id="e"><strong>E) Change portrait</strong> - <a href="#toc">top</a></h3>
+			<p>
+				Replace portrait.png inside <strong>resources -> img</strong> with your portait.
+			</p>
+			<hr />
+			<h3 id="f"><strong>F) Apply your name accross the template</strong> - <a href="#toc">top</a></h3>
+			<p>
+				Replace John Doe with you name on the following lines in <strong>index.html</strong><br />
+				<ul>
+					<li><strong>45</strong>: &lt;h1&gt;&lt;span&gt;<strong>John</strong>&lt;/span&gt; <strong>Doe</strong>&lt;/h1&gt;</li>
+					<li><strong>55</strong>: &lt;h1&gt;&lt;span&gt;<strong>John</strong>&lt;/span&gt; <strong>Doe</strong>&lt;/h1&gt;</li>
+					<li><strong>240</strong>: &lt;h2&gt;<strong>John</strong> <strong>Doe</strong>&lt;/h2&gt;</li>
+				</ul>
+				Keep in mind that your first name (in the first two instances) should be wrapped in span tags.
+			</p>
+			<hr />
+			<h3 id="g"><strong>G) Edit the recipient of the email form</strong> - <a href="#toc">top</a></h3>
+			<p>
+				To edit the recipient of the email form, open <strong>contact_handler.php</strong> <small>(located under <strong>resources -> php</strong>)</small>, go to line 13 and switch the current email out with yours.
+				<pre>$receiver = "<strong>YOUR EMAIL ADDRESS</strong>";</pre>
+			</p>
+			<hr />
+			<h3 id="h"><strong>H) Edit the user to get the latest tweet from</strong> - <a href="#toc">top</a></h3>
+			<p>
+				To edit the user to get the latest tweet from, open <strong>config.js</strong>, go to line 3 and change the current username out with yours.
+				<pre>var twitterUsername = '<strong>YOUR USERNAME</strong>';</pre>
+			</p>
+			<hr />
+			<h3 id="i"><strong>I) Edit social networks</strong> - <a href="#toc">top</a></h3>
+			<p>
+				To add social networks, open <strong>index.html</strong>, go to line 171 and change the various usernames out with yours.<br />
+				To remove social network, just remove the whole <strong>li</strong> wrapper element.<br /><br />
+				
+				If you would like to use some other social networks than the displayed ones, you got some other choices. You can see them in the <strong>social</strong> folder inside the <strong>resources -> img</strong> folder
+			</p>
+			<hr />
+			<h3 id="i"><strong>I) Skill bars</strong> - <a href="#toc">top</a></h3>
+			<p>
+				You can add skill bars to the content with a div element, that looks like this:
+				<pre>
+&lt;div class=&quot;skill&quot;&gt;
+	&lt;div class=&quot;skillBar&quot;&gt;
+		&lt;div class=&quot;skillBarFraction&quot;&gt;
+			<strong>5/10</strong>
+		&lt;/div&gt;
+		&lt;div class=&quot;skillBarProcentage&quot; style=&quot;width:<strong>50%</strong>;&quot;&gt;
+			&lt;div&gt;&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;skillName&quot;&gt;
+		<strong>Adobe Illustrator</strong>
+	&lt;/div&gt;
+&lt;/div&gt;</pre>
+				Remember to edit your fraction accordingly to the procentage.
+			</p>
+			<hr />
+			<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+			<p class="append-bottom alt large"><strong>Fusion Media</strong></p>
+			<p><a href="#toc">Go To Table of Contents</a></p>
+			
+			<hr class="space">
+		</div><!-- end div .container -->
+	</body>
+</html>
