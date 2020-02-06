@@ -332,6 +332,7 @@ span.pink {
 #aboutUserPortrait img {
 	width: 82px;
 	height: 90px;
+	object-fit: cover;
 }
 #aboutUserText {
 	width: 211px;
