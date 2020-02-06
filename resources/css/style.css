@@ -173,6 +173,7 @@ nav ul li.active a, nav ul li a:hover {
 #homePortrait img {
 	width: 172px;
 	height: 188px;
+        object-fit: cover;
 }
 #homeText {
 	width: 209px;
